@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "brand": "FOSS",
+      "name": "Kjeltec 9 Analyser",
+      "category": "Kjeldahl Systems",
+      "description": "Automated Kjeldahl analysis system for accurate nitrogen/protein determination.",
+      "features": [
+        "Fully automated sample handling",
+        "Integrated distillation and titration",
+        "High reproducibility and precision",
+        "Supports AOAC, ISO, and EPA methods"
+      ],
+      "image": "images/products/foss/kjeltec9.png",
+      "datasheet": "pdf/foss_kjeltec9.pdf"
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "Nexera Series",
+      "category": "Liquid Chromatography",
+      "description": "A next-generation UHPLC platform combining superior performance with efficiency.",
+      "features": [
+        "Ultra-high pressure up to 130 MPa",
+        "Integrated autosampler and degasser",
+        "Advanced solvent delivery accuracy",
+        "Supports analytical to preparative scale"
+      ],
+      "image": "images/products/shimadzu/nexera.png",
+      "datasheet": "pdf/shimadzu_nexera.pdf"
+    },
+    {
+      "brand": "Hamco",
+      "name": "Stability Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "Precision environmental chamber for stability testing of pharmaceuticals and materials.",
+      "features": [
+        "Temperature range 10°C to 60°C",
+        "Humidity range 40–95% RH",
+        "Energy efficient refrigeration system",
+        "Complies with ICH guidelines"
+      ],
+      "image": "images/products/hamco/stability_chamber.png",
+      "datasheet": "pdf/hamco_stability.pdf"
+    }
+  ]
+}

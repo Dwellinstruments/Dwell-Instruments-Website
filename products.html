@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Dwell Instruments</title>
+  <meta name="description" content="Explore laboratory instruments from FOSS, Analytik Jena, SCIEX, Shimadzu, Waters, Apera, Hamco, and Dyhydromatics."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="images/favicon.png" type="image/png"/>
+
+  <!-- Minimal, scoped refinements for a cleaner corporate catalog -->
+  <style>
+    /* Scope all tweaks under .catalog to avoid touching the rest of your site */
+    .catalog .toolbar {
+      max-width: 1100px;
+      margin: 10px auto 28px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    @media (max-width: 720px) { .catalog .toolbar { grid-template-columns: 1fr; } }
+
+    .catalog .field {
+      background: #fff;
+      border: 1px solid #e5ebf8;
+      border-radius: 10px;
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+    }
+    .catalog .field input,
+    .catalog .field select {
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.98rem;
+      color: #223;
+      background: transparent;
+    }
+
+    /* Brand section card */
+    .catalog .brand-section {
+      border-radius: 14px;
+      border: 1px solid #e6ebf6;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+      padding: 26px;
+    }
+    .catalog .brand-section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 10px;
+    }
+    .catalog .brand-section-header h2 {
+      font-size: 1.35rem;
+      letter-spacing: .2px;
+    }
+    .catalog .brand-section-header img {
+      max-height: 32px;
+    }
+
+    /* Category card */
+    .catalog .cat-card {
+      border: 1px solid #edf2ff;
+      border-radius: 12px;
+      padding: 16px;
+      background: #fafcff;
+      margin-top: 14px;
+    }
+    .catalog .cat-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .catalog .cat-title {
+      font-weight: 700;
+      color: #0b2c5b;
+      font-size: 1rem;
+    }
+    .catalog .badge {
+      background: #004080;
+      color: #fff;
+      font-size: .78rem;
+      border-radius: 999px;
+      padding: 4px 10px;
+      white-space: nowrap;
+    }
+
+    /* Product chips grid */
+    .catalog .chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 8px;
+    }
+    .catalog .chip {
+      background: #ffffff;
+      border: 1px solid #dfe8fb;
+      color: #0b2c5b;
+      padding: 10px 12px;
+      border-radius: 999px;
+      font-size: .93rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+    }
+    .catalog .chip:hover {
+      border-color: #cfdcff;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      transform: translateY(-1px);
+      background: #fff;
+    }
+
+    /* Subtle divider between brands */
+    .catalog .brand-section + .brand-section {
+      margin-top: 26px;
+    }
+
+    /* Empty/filtered states */
+    .catalog .muted {
+      color: #667;
+      font-size: .95rem;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+
+<body class="catalog">
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Header -->
+  <header class="products-header">
+    <h1>Our Products</h1>
+    <div class="divider"></div>
+    <p>Explore high-quality instruments from our trusted global partners.</p>
+  </header>
+
+  <!-- Brand Cards (unchanged) -->
+  <section class="brand-grid" aria-label="Brands">
+    <a href="#foss" class="brand-card"><img src="images/brands/foss.png" alt="FOSS"><span>FOSS</span></a>
+    <a href="#analytikjena" class="brand-card"><img src="images/brands/analytikjena.png" alt="Analytik Jena"><span>Analytik Jena</span></a>
+    <a href="#sciex" class="brand-card"><img src="images/brands/sciex.png" alt="SCIEX"><span>SCIEX</span></a>
+    <a href="#shimadzu" class="brand-card"><img src="images/brands/shimadzu.png" alt="Shimadzu"><span>Shimadzu</span></a>
+    <a href="#waters" class="brand-card"><img src="images/brands/waters.png" alt="Waters"><span>Waters</span></a>
+    <a href="#apera" class="brand-card"><img src="images/brands/apera.png" alt="Apera"><span>Apera</span></a>
+    <a href="#hamco" class="brand-card"><img src="images/brands/hamco.png" alt="Hamco"><span>Hamco</span></a>
+    <a href="#dyhydromatics" class="brand-card"><img src="images/brands/dyhydromatics.png" alt="Dyhydromatics"><span>Dyhydromatics</span></a>
+  </section>
+
+  <!-- Toolbar: Brand filter + Search -->
+  <div class="toolbar" role="search">
+    <label class="field" aria-label="Filter by brand">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10h10M5 6h14M9 14h6" fill="none" stroke="#004080" stroke-width="2" stroke-linecap="round"/></svg>
+      <select id="brandFilter">
+        <option value="all">All brands</option>
+      </select>
+    </label>
+
+    <label class="field" aria-label="Search products">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="#004080" stroke-width="2" fill="none"/><line x1="20" y1="20" x2="16.65" y2="16.65" stroke="#004080" stroke-width="2"/></svg>
+      <input id="searchBox" type="search" placeholder="Search products (e.g., Kjeltec, NIR, HPLC)…"/>
+    </label>
+  </div>
+
+  <!-- Auto-rendered Brand Sections -->
+  <main id="brand-sections" class="brand-sections" aria-live="polite"></main>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Looking for Reliable Laboratory Instruments?</h2>
+    <p>Get expert recommendations and quotations tailored to your needs.</p>
+    <a href="contact.html" class="cta-btn">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dwell Instruments. All rights reserved.</p>
+  </footer>
+
+  <!-- Navbar loader -->
+  <script>
+    fetch('nav.html')
+      .then(r => r.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+        const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+        document.querySelectorAll('.nav-links a').forEach(a => {
+          const href = (a.getAttribute('href') || '').toLowerCase();
+          if (href === current || (current.startsWith('products.html') && href === 'products.html')) {
+            a.classList.add('active');
+          }
+        });
+      })
+      .catch(() => {});
+  </script>
+
+  <!-- Catalog renderer (clean corporate layout) -->
+  <script>
+    const elSections = document.getElementById('brand-sections');
+    const elFilter = document.getElementById('brandFilter');
+    const elSearch = document.getElementById('searchBox');
+
+    let CATALOG = { brands: [] };
+
+    async function loadCatalog() {
+      const paths = ['./product.json','/product.json','./data/product.json','/data/product.json'];
+      const errors = [];
+      for (const p of paths) {
+        try {
+          const res = await fetch(p, { cache: 'no-store' });
+          if (!res.ok) { errors.push(`${p} → ${res.status}`); continue; }
+          return await res.json();
+        } catch (e) { errors.push(`${p} → ${e.message}`); }
+      }
+      throw new Error(errors.join('\n'));
+    }
+
+    function setFilterOptions() {
+      const options = ['all', ...CATALOG.brands.map(b => b.slug)];
+      elFilter.innerHTML = options.map(v => {
+        const name = v === 'all' ? 'All brands' : (CATALOG.brands.find(b => b.slug === v)?.name || v);
+        return `<option value="${v}">${name}</option>`;
+      }).join('');
+    }
+
+    function matchesQuery(text, q) {
+      return text.toLowerCase().includes(q.toLowerCase());
+    }
+
+    function render() {
+      const brandSel = elFilter.value || 'all';
+      const q = (elSearch.value || '').trim();
+
+      elSections.innerHTML = '';
+
+      const brands = (brandSel === 'all')
+        ? CATALOG.brands
+        : CATALOG.brands.filter(b => b.slug === brandSel);
+
+      if (!brands.length) {
+        elSections.innerHTML = `
+          <section class="brand-section">
+            <h2>No brands found</h2>
+            <p class="muted">Try clearing filters.</p>
+          </section>`;
+        return;
+      }
+
+      brands.forEach(brand => {
+        // Build filtered categories/products
+        const cats = (brand.categories || []).map(cat => {
+          const prods = (cat.products || []).filter(p => !q || matchesQuery(p, q));
+          return { ...cat, products: prods };
+        }).filter(cat => cat.products && cat.products.length);
+
+        // If query active & nothing matches in this brand, skip
+        if (q && cats.length === 0) return;
+
+        const section = document.createElement('section');
+        section.className = 'brand-section';
+        section.id = brand.slug;
+
+        section.innerHTML = `
+          <div class="brand-section-header">
+            <img src="images/brands/${brand.slug}.png" alt="${brand.name} logo"/>
+            <h2>${brand.name}</h2>
+          </div>
+        `;
+
+        if (cats.length === 0) {
+          const p = document.createElement('p');
+          p.className = 'muted';
+          p.textContent = q ? 'No matching products in this brand.' : 'No categories available.';
+          section.appendChild(p);
+        } else {
+          cats.forEach(cat => {
+            const card = document.createElement('div');
+            card.className = 'cat-card';
+
+            const head = document.createElement('div');
+            head.className = 'cat-head';
+            head.innerHTML = `
+              <div class="cat-title">${cat.name}</div>
+              <span class="badge">${cat.products.length}</span>
+            `;
+            card.appendChild(head);
+
+            const list = document.createElement('div');
+            list.className = 'chips';
+
+            cat.products.forEach(p => {
+              const chip = document.createElement('div');
+              chip.className = 'chip';
+              chip.title = p;
+              chip.textContent = p;
+              list.appendChild(chip);
+            });
+
+            card.appendChild(list);
+            section.appendChild(card);
+          });
+        }
+
+        elSections.appendChild(section);
+      });
+
+      // If filter/search removed all content
+      if (!elSections.children.length) {
+        elSections.innerHTML = `
+          <section class="brand-section">
+            <h2>No results</h2>
+            <p class="muted">Try another search term or choose a different brand.</p>
+          </section>`;
+      }
+    }
+
+    // Hash navigation
+    window.addEventListener('hashchange', () => {
+      const el = document.querySelector(location.hash);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // Init
+    (async () => {
+      elSections.innerHTML = `
+        <section class="brand-section">
+          <div class="brand-section-header"><h2>Loading catalogue…</h2></div>
+          <p class="muted">Please wait while we fetch product data.</p>
+        </section>`;
+
+      try {
+        CATALOG = await loadCatalog();
+        setFilterOptions();
+        render();
+        elFilter.addEventListener('change', render);
+        elSearch.addEventListener('input', render);
+
+        // Scroll to brand from hash if any
+        if (location.hash) {
+          const el = document.querySelector(location.hash);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      } catch (e) {
+        console.error(e);
+        elSections.innerHTML = `
+          <section class="brand-section">
+            <h2>Couldn’t load catalogue</h2>
+            <p class="muted">Ensure <code>product.json</code> exists next to this file (or in <code>/data</code>) and is valid JSON.</p>
+          </section>`;
+      }
+    })();
+  </script>
+</body>
+</html>

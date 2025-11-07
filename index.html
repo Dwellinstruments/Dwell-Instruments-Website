@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Dwell Instruments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="navbar"></div>
+
+
+
+
+    <!-- Hero Section
+    <section class="hero">
+        <div class="hero-content">
+            <h1>DWELL INSTRUMENTS</h1>
+            <p>Your Partner in Analytical Excellence</p>
+            <a href="products.html" class="btn">Explore Products</a>
+        </div>
+    </section> -->
+
+    <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <!-- Left side text -->
+    <div class="hero-text">
+      <h1>DWELL INSTRUMENTS</h1>
+      <p>Your Partner in Analytical Excellence</p>
+      <a href="#products" class="hero-btn">Our Products</a>
+    </div>
+
+    <!-- Right side form -->
+    <div class="quote-box">
+      <h3>Request A Quote</h3>
+      <form class="quote-form">
+        <div class="split-input">
+          <div class="input-container">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+          </div>
+
+          <div class="input-container">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="input-container">
+          <label for="Requirements">Requirements</label>
+          <input type="text" id="Requirements" name="Requirements" required>
+        </div>
+
+        <div class="input-container">
+          <label for="file">Upload Requirements (optional)</label>
+          <input type="file" id="file" name="requirements">
+        </div>
+
+        <button type="submit" class="btn-quote">GET A QUOTE</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- # Added: Why Choose Dwell Section -->
+<section class="why-choose">
+  <div class="container">
+    <h2>Why Choose Dwell Instruments</h2>
+
+    <div class="choose-grid">
+      <div class="choose-card">
+        <img src="images/quality.jpg" alt="High Quality Instruments">
+        <div class="card-content">
+          <h3>High Quality Instruments</h3>
+          <p>We deliver accurate and reliable instruments from trusted global brands to ensure top performance in every measurement.</p>
+        </div>
+      </div>
+
+      <div class="choose-card">
+        <img src="images/support.jpg" alt="Technical Support">
+        <div class="card-content">
+          <h3>Expert Technical Support</h3>
+          <p>Our trained engineers provide installation, calibration, and post-sales support to help your operations run smoothly.</p>
+        </div>
+      </div>
+
+      <div class="choose-card">
+        <img src="images/innovation.jpg" alt="Innovation">
+        <div class="card-content">
+          <h3>Innovative Solutions</h3>
+          <p>We bring advanced technologies and modern analytical instruments tailored to your industry and laboratory requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- # Hero / Intro Section -->
+<section class="trusted-partner">
+  <div class="container">
+    <div class="partner-content">
+      <div class="partner-image">
+        <img src="images/lab-partner.jpg" alt="Analytical Laboratory Instruments">
+      </div>
+      <div class="partner-text">
+        <h2>Your Trusted Partner for Analytical Solutions</h2>
+        <p>
+          At Dwell Instruments, we provide high-quality analytical and laboratory instruments 
+          designed to deliver precision and reliability. From chromatography and spectroscopy 
+          systems to general lab essentials, we ensure that every product meets the highest 
+          performance standards for your research and industrial needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Dwell Section -->
+<section class="why-choose-dwell">
+  <h2>Our Products</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="images/lab1.jpg" alt="Precision Instruments">
+      </div>
+      <div class="carousel-item">
+        <img src="images/lab2.jpg" alt="High Quality Equipment">
+      </div>
+      <div class="carousel-item">
+        <img src="images/lab3.jpg" alt="Reliable Lab Solutions">
+      </div>
+      <div class="carousel-item">
+        <img src="images/lab4.jpg" alt="Advanced Technology">
+      </div>
+    </div>
+
+    <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Dwell Instruments. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+<script>
+fetch('nav.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById('navbar').innerHTML = html;
+
+    // Ensure navbar is inserted before running highlight logic
+    setTimeout(() => {
+      // Get current filename only (e.g. about.html)
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+      // Match and highlight the correct nav link
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        const linkHref = link.getAttribute('href');
+
+        if (
+          linkHref === currentPage ||
+          (currentPage === '' && linkHref === 'index.html')
+        ) {
+          link.classList.add('active');
+        }
+      });
+    }, 200);
+  });
+</script>
+
+
+</body>
+</html>

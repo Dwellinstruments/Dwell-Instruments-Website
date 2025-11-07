@@ -1,0 +1,523 @@
+{
+  "brands": [
+    {
+      "name": "Foss",
+      "slug": "foss",
+      "categories": [
+        {
+          "name": "Kjeldahl Systems",
+          "slug": "kjeldahl",
+          "products": [
+            "Kjeltec 9 Analyser",
+            "Kjeltec 9 Distillator",
+            "Kjeltec 8100",
+            "KT 200 Kjeltec",
+            "DT 208 & 220 Digestor",
+            "Digestor 2508 / 2520",
+            "Autosampler for Kjeltec 9"
+          ]
+        },
+        {
+          "name": "Digestion",
+          "slug": "digestion",
+          "products": [
+            "DT 208 & 220 Digestor",
+            "Digestor 2508 / 2520"
+          ]
+        },
+        {
+          "name": "Solvent Extraction",
+          "slug": "solvent-extraction",
+          "products": [
+            "Soxtec 8000",
+            "Hydrotec 8000"
+          ]
+        },
+        {
+          "name": "Fibre Analysis",
+          "slug": "fibre-analysis",
+          "products": [
+            "Fibertec 8000",
+            "FT 122 Fibertec",
+            "Fibertec 1023"
+          ]
+        },
+        {
+          "name": "NIR Spectroscopy",
+          "slug": "nir",
+          "products": [
+            "NIRS DS3 (Lab)",
+            "NIRS DS3 Meat By-product Analyser",
+            "FoodScan 2 Meat Analyser",
+            "Infratec (Grain Analyser)",
+            "Infratec NOVA"
+          ]
+        },
+        {
+          "name": "Milk & Dairy (FTIR / Combi)",
+          "slug": "milk-dairy",
+          "products": [
+            "MilkoScan 7 RM",
+            "CombiFoss 7"
+          ]
+        },
+        {
+          "name": "X-ray Analysis",
+          "slug": "x-ray",
+          "products": [
+            "MeatMaster II"
+          ]
+        },
+        {
+          "name": "Beer Analysis",
+          "slug": "beer-analysis",
+          "products": [
+            "BeerFoss FT Go"
+          ]
+        },
+        {
+          "name": "Accessories",
+          "slug": "accessories",
+          "products": [
+            "Autosampler for Kjeltec 9"
+          ]
+        }
+      ]
+    },
+    {
+  "name": "Analytik Jena",
+  "slug": "analytikjena",
+  "categories": [
+    {
+      "name": "Elemental Analysis",
+      "slug": "elemental-analysis",
+      "products": [
+        "AAS",
+        "ICP-MS",
+        "ICP-OES",
+        "C/N/S/Cl Elemental Analysis",
+        "Accessories – Elemental Analysis"
+      ]
+    },
+    {
+      "name": "Sum Parameter Analysis",
+      "slug": "sum-parameter-analysis",
+      "products": [
+        "TOC/TNb Analysis",
+        "AOX Analysis",
+        "Accessories – Sum Parameter Analysis"
+      ]
+    },
+    {
+      "name": "Molecular Spectroscopy",
+      "slug": "molecular-spectroscopy",
+      "products": [
+        "UV-Vis Double-beam Spectrophotometers",
+        "Accessories – Molecular Spectroscopy"
+      ]
+    },
+    {
+      "name": "Liquid Handling & Automation",
+      "slug": "liquid-handling-automation",
+      "products": [
+        "Flexible Benchtop Automation",
+        "Automated Nucleic Acid Extraction",
+        "High Throughput Liquid Handling",
+        "Automated PCR and qPCR",
+        "Lab Automation"
+      ]
+    },
+    {
+      "name": "Life Science",
+      "slug": "life-science",
+      "products": [
+        "PCR and qPCR",
+        "Bioimaging",
+        "Electrophoresis & Blotting",
+        "PCR Workstations & Cabinets"
+      ]
+    },
+    {
+      "name": "Lab Equipment",
+      "slug": "lab-equipment",
+      "products": [
+        "Electrophoresis & Blotting",
+        "PCR Workstations & Cabinets",
+        "Thermal Mixers / Thermal Shakers",
+        "Hybridization Ovens",
+        "Incubators"
+      ]
+    },
+    {
+      "name": "Sample Preparation",
+      "slug": "sample-preparation",
+      "products": [
+        "Automation Solutions",
+        "AOX sample preparation",
+        "Microwave-assisted Pressure Digestion",
+        "Thermal Mixers",
+        "Automated Nucleic Acid Extraction"
+      ]
+    },
+    {
+      "name": "Consumables",
+      "slug": "consumables",
+      "products": [
+        "Tips for Liquid Handling",
+        "PCR Plastics",
+        "General Labware"
+      ]
+    },
+    {
+      "name": "All Products",
+      "slug": "all",
+      "products": [
+        "Request complete Analytik Jena catalogue"
+      ]
+    }
+  ]
+},
+    {
+  "name": "Sciex",
+  "slug": "sciex",
+  "categories": [
+    {
+      "name": "High-Resolution QTOF",
+      "slug": "qtof",
+      "products": [
+        "ZenoTOF 8600 system",
+        "ZenoTOF 7600+ system",
+        "ZenoTOF 7600 system",
+        "X500 family"
+      ]
+    },
+    {
+      "name": "QTRAP LC–MS/MS",
+      "slug": "qtrap",
+      "products": [
+        "QTRAP 6500+ system",
+        "5500+ system",
+        "QTRAP 4500 system"
+      ]
+    },
+    {
+      "name": "Triple Quad LC–MS/MS",
+      "slug": "triple-quad",
+      "products": [
+        "7500+ system",
+        "Triple Quad 6500+ system",
+        "5500+ system"
+      ]
+    },
+    {
+      "name": "Capillary Electrophoresis (CE)",
+      "slug": "ce",
+      "products": [
+        "Intabio ZT system",
+        "BioPhase 8800 system",
+        "PA 800 Plus system",
+        "P/ACE MDQ Plus system",
+        "CESI 8000 Plus system"
+      ]
+    },
+    {
+      "name": "HPLC & Front-Ends",
+      "slug": "hplc",
+      "products": [
+        "ExionLC AE system",
+        "ExionLC 2.0 system",
+        "M5 MicroLC system",
+        "OptiFlow Quant solution",
+        "SelexION device",
+        "Micro HPLC columns"
+      ]
+    },
+    {
+      "name": "Integrated Solutions",
+      "slug": "integrated",
+      "products": [
+        "Echo MS+ system",
+        "Intabio ZT system",
+        "OptiFlow Quant solution"
+      ]
+    },
+    {
+      "name": "Software & Data",
+      "slug": "software",
+      "products": [
+        "SCIEX OS software",
+        "Analyst software",
+        "Analyst TF software",
+        "OneOmics suite",
+        "MultiQuant software",
+        "AI Quantitation software",
+        "Biologics Explorer software",
+        "Molecule Profiler software"
+      ]
+    },
+    {
+      "name": "Accessories & Reagents",
+      "slug": "accessories",
+      "products": [
+        "Mass spectral libraries",
+        "Accessories",
+        "Standards and reagent kits"
+      ]
+    },
+    {
+      "name": "All Products",
+      "slug": "all",
+      "products": [
+        "Request complete SCIEX catalogue"
+      ]
+    }
+  ]
+},
+    {
+  "name": "Shimadzu",
+  "slug": "shimadzu",
+  "categories": [
+    {
+      "name": "Liquid Chromatography (HPLC/UHPLC)",
+      "slug": "lc",
+      "products": [
+        "Nexera series",            
+        "i-Series HPLC/UHPLC",      
+        "LC-20 Series",             
+        "UHPLC model LC-2060 series" 
+      ]
+    },
+    {
+      "name": "Liquid Chromatography-Mass Spectrometry (LC-MS)",
+      "slug": "lc-ms",
+      "products": [
+        "Shimadzu LC-MS Systems",    
+        "LCMS-8060 Triple Quadrupole" ]
+    },
+    {
+      "name": "Gas Chromatography (GC)",
+      "slug": "gc",
+      "products": [
+        "Nexis GC-2030",  
+        "Brevis GC-2050", 
+        "GC-2010 Pro",    
+        "GC-2014"         
+      ]
+    },
+    {
+      "name": "Gas Chromatograph-Mass Spectrometry (GC-MS)",
+      "slug": "gc-ms",
+      "products": [
+        "GCMS-TQ8050 NX", 
+        "GCMS-TQ8040 NX", 
+        "GCMS-QP2050",    
+        "GCMS-QP2020 NX"  
+      ]
+    },
+    {
+      "name": "Molecular Spectroscopy – FTIR",
+      "slug": "ftir",
+      "products": [
+        "FTIR Spectroscopy Systems" 
+      ]
+    },
+    {
+      "name": "Molecular Spectroscopy – UV-Vis",
+      "slug": "uv-vis",
+      "products": [
+        "UV-Vis Spectrophotometers" 
+      ]
+    },
+    {
+      "name": "All Products",
+      "slug": "all",
+      "products": [
+        "Request complete Shimadzu catalogue"
+      ]
+    }
+  ]
+},
+    {
+      "name": "Waters",
+      "slug": "waters",
+      "categories": [
+        { "name": "HPLC", "slug": "hplc", "products": ["HPLC Systems"] }
+      ]
+    },
+    {
+      "name": "Apera",
+      "slug": "apera",
+      "categories": [
+        { "name": "Analytical Instruments", "slug": "analytical", "products": ["pH Meters", "Conductivity Meters"] }
+      ]
+    },
+    {
+  "name": "Hamco",
+  "slug": "hamco",
+  "categories": [
+    {
+      "name": "Pharmaceutical Testing Instruments",
+      "slug": "pharma-testing",
+      "products": [
+        "Automatic Leak Test Apparatus",
+        "Stability Chamber",
+        "Photo Stability Chamber",
+        "BOD Incubator",
+        "Lab Incubator",
+        "Freeze Thaw Chamber",
+        "Heating and Cooling Chamber",
+        "Pharma Refrigerator",
+        "Walk in Incubator",
+        "Walk In Stability Chamber",
+        "Humidity Chamber Manufacturer in India"
+      ]
+    },
+    {
+      "name": "Laboratory Instruments",
+      "slug": "laboratory",
+      "products": [
+        "Environmental Chamber Standard",
+        "Vacuum Oven Standard / GMP Model",
+        "Heating and Cooling Chamber",
+        "BOD Incubator Standard / GMP Model",
+        "Laboratory Oven Upto 400 deg C",
+        "Muffle Furnace Upto 900 deg C",
+        "Muffle Furnace Upto 1200 deg C",
+        "Plant Growth Chamber",
+        "Bacteriological Incubator – Hamco 41 Series",
+        "Laboratory Drying Oven",
+        "Laboratory Precision Oven",
+        "Laboratory Oven",
+        "High Temperature Oven",
+        "Constant Temperature Water Bath",
+        "Programmable Humidity Chamber",
+        "Conditioning Chamber",
+        "Halt And Hass Chamber",
+        "Hot And Cold Chamber",
+        "Climatic Chamber",
+        "Thermal Chamber",
+        "Oil Bath"
+      ]
+    },
+    {
+      "name": "Scientific Instruments",
+      "slug": "scientific",
+      "products": [
+        "Karl Fischer Titration Apparatus",
+        "Automatic Potentiometric Titration",
+        "Deep Freeze (-20 °C/-40 °C/-60 °C/‐80 °C) – Hamco 47 Series",
+        "Deep Freezer Horizontal",
+        "Deep Freezer Vertical",
+        "Autoclave",
+        "Ultra Low Temperature Cryostate Bath",
+        "Cryostate Bath",
+        "Water Bath"
+      ]
+    },
+    {
+      "name": "Oil Testing Instruments",
+      "slug": "oil-testing",
+      "products": [
+        "Automatic Pensky‐Martens Flash Point Apparatus",
+        "Abel Flash Point Apparatus",
+        "Automatics Flash Point Test Apparatus",
+        "Semi-Automatic Pensky Martens Flash Point Apparatus",
+        "Low Temperature Kinematic Viscosity Bath",
+        "Kinematic Viscosity Bath",
+        "Capillary Glass Viscometer",
+        "Redwood Viscometer",
+        "Saybolt Viscometer",
+        "Cloud & Pour Point Test",
+        "Aniline Point Apparatus",
+        "Ramsbottom Carbon Residue Apparatus",
+        "Freezing Point Apparatus",
+        "Dielectric Breakdown Voltage Tester",
+        "Distillation Range Apparatus",
+        "Foaming Test Apparatus",
+        "Density Bath",
+        "Hydrometer",
+        "ASTM Thermometer",
+        "Automatic Cleveland Open Cup Flash Point Tester",
+        "Carbon Residue Apparatus",
+        "Carbon Residue Conradson"
+      ]
+    },
+    {
+      "name": "Fuel Testing Instruments",
+      "slug": "fuel-testing",
+      "products": [
+        "Copper Corrosion Test Apparatus",
+        "Reid Vapour Pressure Test Apparatus",
+        "Cold Finger Plugging Point Apparatus",
+        "Smoke Point Apparatus"
+      ]
+    },
+    {
+      "name": "Grease / Bitumen Testing",
+      "slug": "grease-bitumen",
+      "products": [
+        "Drop Point Apparatus",
+        "Softening Point Apparatus",
+        "Bitumen Distillation Apparatus"
+      ]
+    },
+    {
+      "name": "Water Testing Instruments",
+      "slug": "water-testing",
+      "products": [
+        "COD Digestor",
+        "Drum Heater Manufacturer in India"
+      ]
+    },
+    {
+      "name": "Coal Testing Instruments",
+      "slug": "coal-testing",
+      "products": [
+        "Ash Content Apparatus",
+        "Moisture Oven For Coal",
+        "Minimum Space Oven For Coal",
+        "Automatic Bomb Calorimeter"
+      ]
+    },
+    {
+      "name": "Standalone",
+      "slug": "standalone",
+      "products": [
+        "Demulsibility Bath"
+      ]
+    }
+  ]
+},
+    {
+  "name": "Dyhydromatics",
+  "slug": "dyhydromatics",
+  "categories": [
+    {
+      "name": "Small Volume High-Shear Homogenizers",
+      "slug": "small-volume",
+      "products": [
+        "ShearJet HL60 V2",
+        "ShearJet HL60 Standard",
+        "ShearJet HL60 Premium"
+      ]
+    },
+    {
+      "name": "Medium Volume High-Shear Homogenizers",
+      "slug": "medium-volume",
+      "products": [
+        "ShearJet PL300",
+        "ShearJet PL300PH"
+      ]
+    },
+    {
+      "name": "Pilot Scale High-Shear Homogenizers",
+      "slug": "pilot-scale",
+      "products": [
+        "ShearJet HP1200 V2"
+      ]
+    }
+  ]
+}
+
+  ]
+}

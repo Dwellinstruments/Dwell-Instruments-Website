@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Dwell Instruments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div id="navbar"></div>
+
+  <!-- Hero Section -->
+  <section class="about-hero">
+    <div class="hero-overlay">
+      <h1>About Dwell Instruments</h1>
+      <p>Empowering Precision, Reliability & Innovation in Every Measurement</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-content">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p>
+        Dwell Instruments is a trusted dealer and supplier of high-quality analytical, chromatography, and general laboratory instruments. 
+        We partner with globally recognized brands to provide innovative, precise, and efficient solutions for laboratories and industries.
+      </p>
+      <p>
+        Based in Mumbai, India, we have established strong relationships with customers across the scientific community by delivering 
+        not just products, but complete laboratory solutions tailored to each client’s needs.
+      </p>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section class="expertise">
+    <div class="container">
+      <h2>Our Expertise</h2>
+      <p>
+        At Dwell Instruments, we go beyond distribution — our team offers in-depth product knowledge, 
+        technical assistance, and solution-based consulting. From analytical instruments to turnkey projects, 
+        we support clients across pharmaceutical, research, and industrial sectors.
+      </p>
+      <ul>
+        <li>Exclusive dealership partnerships for premium brands.</li>
+        <li>Tailor-made solutions for diverse analytical applications.</li>
+        <li>Dedicated after-sales support and technical service.</li>
+        <li>Commitment to quality, trust, and long-term partnerships.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+<section class="partners">
+  <div class="container">
+    <h2>Brands We Deal In</h2>
+    <div class="partner-logos">
+
+      <div class="brand-card">
+        <img src="images/brands/waters.png" alt="Waters">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/shimadzu.png" alt="Shimadzu">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/agilent.png" alt="Agilent">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/inkarp.png" alt="Inkarp">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/labindia.png" alt="Labindia">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/foss.png" alt="Foss">
+      </div>
+
+      <div class="brand-card">
+        <img src="images/brands/sciex.png" alt="Sciex">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h2>Let’s Work Together</h2>
+    <p>Looking for reliable and high-quality laboratory instruments?</p>
+    <a href="contact.html" class="cta-btn">Contact Us</a>
+  </section>
+
+   <!-- Footer -->
+    <footer>
+        <p>© 2025 Dwell Instruments. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+<script>
+fetch('nav.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById('navbar').innerHTML = html;
+
+    // Ensure navbar is inserted before running highlight logic
+    setTimeout(() => {
+      // Get current filename only (e.g. about.html)
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+      // Match and highlight the correct nav link
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        const linkHref = link.getAttribute('href');
+
+        if (
+          linkHref === currentPage ||
+          (currentPage === '' && linkHref === 'index.html')
+        ) {
+          link.classList.add('active');
+        }
+      });
+    }, 200);
+  });
+</script>
+
+</body>
+</html>

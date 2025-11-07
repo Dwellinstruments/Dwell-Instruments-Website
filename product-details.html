@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Product Details - Dwell Instruments</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <main class="product-details-container">
+    <div class="product-hero">
+      <img id="product-image" src="images/placeholder.png" alt="Product image" />
+      <div class="product-info">
+        <h1 id="product-name">Product Name</h1>
+        <p id="product-description">Loading product details...</p>
+        <a id="datasheet-link" href="#" target="_blank" class="cta-btn">Download Brochure</a>
+        <a href="contact.html" class="cta-btn">Request Quote</a>
+      </div>
+    </div>
+
+    <section class="product-specs">
+      <h2>Key Features</h2>
+      <ul id="product-specs"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dwell Instruments. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Load navbar
+    fetch('nav.html')
+      .then(r => r.text())
+      .then(html => document.getElementById('navbar').innerHTML = html);
+
+    // Load product details from JSON
+    async function loadProduct() {
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get('product');
+      if (!name) return;
+
+      const res = await fetch('product_details.json');
+      const data = await res.json();
+      const product = data.products.find(p => p.name === name);
+
+      if (!product) {
+        document.getElementById('product-name').innerText = 'Product not found';
+        return;
+      }
+
+      document.title = `${product.name} – Dwell Instruments`;
+      document.getElementById('page-title').innerText = product.name;
+      document.getElementById('product-name').innerText = product.name;
+      document.getElementById('product-description').innerText = product.description;
+      document.getElementById('product-image').src = product.image || 'images/placeholder.png';
+      document.getElementById('datasheet-link').href = product.datasheet || '#';
+
+      const specsList = document.getElementById('product-specs');
+      specsList.innerHTML = '';
+      product.features.forEach(f => {
+        const li = document.createElement('li');
+        li.textContent = f;
+        specsList.appendChild(li);
+      });
+    }
+
+    loadProduct();
+  </script>
+</body>
+</html>
