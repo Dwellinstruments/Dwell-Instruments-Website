@@ -1,46 +1,1967 @@
 {
   "products": [
     {
-      "brand": "FOSS",
+      "brand": "Foss",
       "name": "Kjeltec 9 Analyser",
       "category": "Kjeldahl Systems",
-      "description": "Automated Kjeldahl analysis system for accurate nitrogen/protein determination.",
-      "features": [
-        "Fully automated sample handling",
-        "Integrated distillation and titration",
-        "High reproducibility and precision",
-        "Supports AOAC, ISO, and EPA methods"
-      ],
-      "image": "images/products/foss/kjeltec9.png",
-      "datasheet": "pdf/foss_kjeltec9.pdf"
+      "description": "The Kjeltec™ 9 Analyser provides fully automated Kjeldahl analysis, combining distillation, titration, and advanced data handling in one system. Designed for rapid nitrogen and protein determination, it ensures high throughput, minimal handling, and superior accuracy across food, feed, and agricultural laboratories.",
+      "features": ["Complete automation of distillation and titration processes",
+    "High-precision nitrogen and protein determination",
+    "Built-in digital data logging and LIMS connectivity",
+    "Reduced operator exposure to reagents for enhanced safety",
+    "Compliant with international standards such as AOAC, ISO, and IDF"],
+      "product_url": "https://www.fossanalytics.com/en-in/products/kjeltec-9-analyser",
+      "image": "images/products/foss/kjeltec-9-analyser.jpg",
+      "datasheet": ""
+    },
+    {
+  "brand": "FOSS",
+  "name": "Kjeltec 9 Distillator",
+  "category": "Kjeldahl Systems",
+  "description": "The Kjeltec™ 9 Distillator is an advanced, fully automated distillation unit designed for fast, safe, and precise Kjeldahl analysis. It delivers unmatched reproducibility for nitrogen and protein determination while optimizing reagent usage and sample throughput.",
+  "features": [
+    "Automated distillation with precise control and reproducibility",
+    "Fast sample turnaround and minimal operator involvement",
+    "Integrated safety features and reagent monitoring",
+    "Compatible with Kjeltec 9 Analyser and other FOSS systems",
+    "Compliant with international standards for Kjeldahl analysis (AOAC, ISO, IDF)"
+  ],
+  "product_url": "https://www.fossanalytics.com/en/products/kjeltec-9-distillator",
+  "image": "images/products/foss/kjeltec-9-distillator.jpg",
+  "datasheet": "datasheets/foss/kjeltec-9-distillator.pdf"
+},
+    {
+      "brand": "Foss",
+      "name": "Kjeltec 8100",
+      "category": "Kjeldahl Systems",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/kjeltec-8100",
+      "image": "images/products/foss/kjeltec-8100.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "KT 200 Kjeltec",
+      "category": "Kjeldahl Systems",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/kt-200-kjeltec",
+      "image": "images/products/foss/kt-200-kjeltec.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Autosampler for Kjeltec 9",
+      "category": "Accessories",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/autosampler-for-kjeltec-9-analyser",
+      "image": "images/products/foss/autosampler-for-kjeltec-9.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "DT 208 & 220 Digestor",
+      "category": "Digestion",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/en-in/products/dt_208_220_digestor",
+      "image": "images/products/foss/dt-208-220-digestor.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Digestor 2508 / 2520",
+      "category": "Digestion",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/digestor_2508_2520",
+      "image": "images/products/foss/digestor-2508-2520.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Soxtec 8000",
+      "category": "Solvent Extraction",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/soxtec-8000",
+      "image": "images/products/foss/soxtec-8000.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Hydrotec 8000",
+      "category": "Solvent Extraction",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/hydrotec-8000",
+      "image": "images/products/foss/hydrotec-8000.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Fibertec 8000",
+      "category": "Fibre Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/fibertec-8000",
+      "image": "images/products/foss/fibertec-8000.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "FT 122 Fibertec",
+      "category": "Fibre Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/ft-122-fibertec",
+      "image": "images/products/foss/ft-122-fibertec.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Fibertec 1023",
+      "category": "Fibre Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/fibertec1023",
+      "image": "images/products/foss/fibertec-1023.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "NIRS DS3 (Lab)",
+      "category": "NIR Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/nirs-ds3-lab",
+      "image": "images/products/foss/nirs-ds3.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "FoodScan 2 Meat Analyser",
+      "category": "NIR Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/foodscan-2-meat-analyser",
+      "image": "images/products/foss/foodscan-2-meat-analyser.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "MeatMaster II",
+      "category": "X-ray Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/meatmaster-ii",
+      "image": "images/products/foss/meatmaster-ii.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "BeerFoss FT Go",
+      "category": "Beer Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/beerfoss-go",
+      "image": "images/products/foss/beerfoss-ft-go.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Infratec (Grain Analyser)",
+      "category": "NIR Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/infratec",
+      "image": "images/products/foss/infratec-grain-analyser.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "Infratec NOVA",
+      "category": "NIR Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/infratec-nova",
+      "image": "images/products/foss/infratec-nova.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "MilkoScan 7 RM",
+      "category": "Milk & Dairy (FTIR / Combi)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/products/milkoscan-7-rm",
+      "image": "images/products/foss/milkoscan-7rm.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Foss",
+      "name": "CombiFoss 7",
+      "category": "Milk & Dairy (FTIR / Combi)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.fossanalytics.com/about-foss/press",
+      "image": "images/products/foss/combifoss-7.jpg",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "AAS",
+      "category": "Elemental Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "ICP-MS",
+      "category": "Elemental Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "ICP-OES",
+      "category": "Elemental Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "C/N/S/Cl Elemental Analysis",
+      "category": "Elemental Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Accessories – Elemental Analysis",
+      "category": "Elemental Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "TOC/TNb Analysis",
+      "category": "Sum Parameter Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "AOX Analysis",
+      "category": "Sum Parameter Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Accessories – Sum Parameter Analysis",
+      "category": "Sum Parameter Analysis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "UV-Vis Double-beam Spectrophotometers",
+      "category": "Molecular Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Accessories – Molecular Spectroscopy",
+      "category": "Molecular Spectroscopy",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Flexible Benchtop Automation",
+      "category": "Liquid Handling & Automation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Automated Nucleic Acid Extraction",
+      "category": "Liquid Handling & Automation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "High Throughput Liquid Handling",
+      "category": "Liquid Handling & Automation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Automated PCR and qPCR",
+      "category": "Liquid Handling & Automation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Lab Automation",
+      "category": "Liquid Handling & Automation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "PCR and qPCR",
+      "category": "Life Science",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Bioimaging",
+      "category": "Life Science",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Electrophoresis & Blotting",
+      "category": "Life Science",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "PCR Workstations & Cabinets",
+      "category": "Life Science",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Electrophoresis & Blotting",
+      "category": "Lab Equipment",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "PCR Workstations & Cabinets",
+      "category": "Lab Equipment",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Thermal Mixers / Thermal Shakers",
+      "category": "Lab Equipment",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Hybridization Ovens",
+      "category": "Lab Equipment",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Incubators",
+      "category": "Lab Equipment",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Automation Solutions",
+      "category": "Sample Preparation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "AOX sample preparation",
+      "category": "Sample Preparation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Microwave-assisted Pressure Digestion",
+      "category": "Sample Preparation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Thermal Mixers",
+      "category": "Sample Preparation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Automated Nucleic Acid Extraction",
+      "category": "Sample Preparation",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "Tips for Liquid Handling",
+      "category": "Consumables",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "PCR Plastics",
+      "category": "Consumables",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Analytik Jena",
+      "name": "General Labware",
+      "category": "Consumables",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.analytik-jena.in/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "ZenoTOF 8600 system",
+      "category": "High-Resolution QTOF",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "ZenoTOF 7600+ system",
+      "category": "High-Resolution QTOF",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "ZenoTOF 7600 system",
+      "category": "High-Resolution QTOF",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "X500 family",
+      "category": "High-Resolution QTOF",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "QTRAP 6500+ system",
+      "category": "QTRAP LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "5500+ system",
+      "category": "QTRAP LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "QTRAP 4500 system",
+      "category": "QTRAP LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "7500+ system",
+      "category": "Triple Quad LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Triple Quad 6500+ system",
+      "category": "Triple Quad LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "5500+ system",
+      "category": "Triple Quad LC–MS/MS",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Intabio ZT system",
+      "category": "Capillary Electrophoresis (CE)",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "BioPhase 8800 system",
+      "category": "Capillary Electrophoresis (CE)",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "PA 800 Plus system",
+      "category": "Capillary Electrophoresis (CE)",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "P/ACE MDQ Plus system",
+      "category": "Capillary Electrophoresis (CE)",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "CESI 8000 Plus system",
+      "category": "Capillary Electrophoresis (CE)",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "ExionLC AE system",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "ExionLC 2.0 system",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "M5 MicroLC system",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "OptiFlow Quant solution",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "SelexION device",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Micro HPLC columns",
+      "category": "HPLC & Front-Ends",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Echo MS+ system",
+      "category": "Integrated Solutions",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Intabio ZT system",
+      "category": "Integrated Solutions",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "OptiFlow Quant solution",
+      "category": "Integrated Solutions",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "SCIEX OS software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Analyst software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Analyst TF software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "OneOmics suite",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "MultiQuant software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "AI Quantitation software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Biologics Explorer software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Molecule Profiler software",
+      "category": "Software & Data",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Mass spectral libraries",
+      "category": "Accessories & Reagents",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Accessories",
+      "category": "Accessories & Reagents",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Sciex",
+      "name": "Standards and reagent kits",
+      "category": "Accessories & Reagents",
+      "description": "",
+      "features": [],
+      "product_url": "https://sciex.com/products",
+      "image": "",
+      "datasheet": ""
     },
     {
       "brand": "Shimadzu",
-      "name": "Nexera Series",
-      "category": "Liquid Chromatography",
-      "description": "A next-generation UHPLC platform combining superior performance with efficiency.",
-      "features": [
-        "Ultra-high pressure up to 130 MPa",
-        "Integrated autosampler and degasser",
-        "Advanced solvent delivery accuracy",
-        "Supports analytical to preparative scale"
-      ],
-      "image": "images/products/shimadzu/nexera.png",
-      "datasheet": "pdf/shimadzu_nexera.pdf"
+      "name": "Nexera series",
+      "category": "Liquid Chromatography (HPLC/UHPLC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "i‑Series HPLC/UHPLC",
+      "category": "Liquid Chromatography (HPLC/UHPLC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "LC‑20 Series",
+      "category": "Liquid Chromatography (HPLC/UHPLC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "UHPLC model LC‑2060 series",
+      "category": "Liquid Chromatography (HPLC/UHPLC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "Shimadzu LC‑MS Systems",
+      "category": "Liquid Chromatography‑Mass Spectrometry (LC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "LCMS‑8060 Triple Quadrupole",
+      "category": "Liquid Chromatography‑Mass Spectrometry (LC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/liquid-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "Nexis GC‑2030",
+      "category": "Gas Chromatography (GC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "Brevis GC‑2050",
+      "category": "Gas Chromatography (GC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GC‑2010 Pro",
+      "category": "Gas Chromatography (GC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GC‑2014",
+      "category": "Gas Chromatography (GC)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatography/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GCMS‑TQ8050 NX",
+      "category": "Gas Chromatograph‑Mass Spectrometry (GC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GCMS‑TQ8040 NX",
+      "category": "Gas Chromatograph‑Mass Spectrometry (GC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GCMS‑QP2050",
+      "category": "Gas Chromatograph‑Mass Spectrometry (GC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "GCMS‑QP2020 NX",
+      "category": "Gas Chromatograph‑Mass Spectrometry (GC‑MS)",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/gas-chromatograph-mass-spectrometry/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "FTIR Spectroscopy Systems",
+      "category": "Molecular Spectroscopy – FTIR",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/molecular-spectroscopy/ftir/ftir-spectroscopy/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Shimadzu",
+      "name": "UV‑Vis Spectrophotometers",
+      "category": "Molecular Spectroscopy – UV‑Vis",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.shimadzu.com/an/products/molecular-spectroscopy/uv-vis/index.html",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Waters",
+      "name": "HPLC Systems",
+      "category": "HPLC",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.waters.com/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Apera",
+      "name": "pH Meters",
+      "category": "Analytical Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://aperainst.com/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Apera",
+      "name": "Conductivity Meters",
+      "category": "Analytical Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://aperainst.com/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatic Leak Test Apparatus",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
     },
     {
       "brand": "Hamco",
       "name": "Stability Chamber",
       "category": "Pharmaceutical Testing Instruments",
-      "description": "Precision environmental chamber for stability testing of pharmaceuticals and materials.",
-      "features": [
-        "Temperature range 10°C to 60°C",
-        "Humidity range 40–95% RH",
-        "Energy efficient refrigeration system",
-        "Complies with ICH guidelines"
-      ],
-      "image": "images/products/hamco/stability_chamber.png",
-      "datasheet": "pdf/hamco_stability.pdf"
-    }
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Photo Stability Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "BOD Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Lab Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Freeze Thaw Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Heating and Cooling Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Pharma Refrigerator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Walk in Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Walk In Stability Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Humidity Chamber Manufacturer in India",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Bod Incubator Cum Bacteriological Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Chamber Bacteriological Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Chamber Bod Cum Bacteriological Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Chamber Bod Incubator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Chamber Freezer Cum Refrigerator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dual Chamber Pharma Refrigerator",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Walk in Cooling Chamber",
+      "category": "Pharmaceutical Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/pharmaceutical-test-chambers/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Environmental Chamber Standard",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Vacuum Oven Standard / GMP Model",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Heating and Cooling Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "BOD Incubator Standard / GMP Model",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Laboratory Oven Upto 400 deg C",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Muffle Furnace Upto 900 deg C",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Muffle Furnace Upto 1200 deg C",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Plant Growth Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Bacteriological Incubator – Hamco 41 Series",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Laboratory Drying Oven",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Laboratory Precision Oven",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Laboratory Oven",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "High Temperature Oven",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Constant Temperature Water Bath",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Programmable Humidity Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Conditioning Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Halt And Hass Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Hot And Cold Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Climatic Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Thermal Chamber",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Oil Bath",
+      "category": "Laboratory Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/laboratory-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Karl Fischer Titration Apparatus",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatic Potentiometric Titration",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Deep Freeze (-20 °C/‑40 °C/‑60 °C/‐80 °C) – Hamco 47 Series",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Deep Freezer Horizontal",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Deep Freezer Vertical",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Autoclave",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Ultra Low Temperature Cryostate Bath",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Cryostate Bath",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Water Bath",
+      "category": "Scientific Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/scientific-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatic Pensky‐Martens Flash Point Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Abel Flash Point Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatics Flash Point Test Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Semi‑Automatic Pensky Martens Flash Point Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Low Temperature Kinematic Viscosity Bath",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Kinematic Viscosity Bath",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Capillary Glass Viscometer",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Redwood Viscometer",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Saybolt Viscometer",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Cloud & Pour Point Test",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Aniline Point Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Ramsbottom Carbon Residue Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Freezing Point Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Dielectric Breakdown Voltage Tester",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Distillation Range Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Foaming Test Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Density Bath",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Hydrometer",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "ASTM Thermometer",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatic Cleveland Open Cup Flash Point Tester",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Carbon Residue Apparatus",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Carbon Residue Conradson",
+      "category": "Oil Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/oil-testing-instruments/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Copper Corrosion Test Apparatus",
+      "category": "Fuel Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/fuel-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Reid Vapour Pressure Test Apparatus",
+      "category": "Fuel Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/fuel-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Cold Finger Plugging Point Apparatus",
+      "category": "Fuel Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/fuel-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Smoke Point Apparatus",
+      "category": "Fuel Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/fuel-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Drop Point Apparatus",
+      "category": "Grease / Bitumen Testing",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/grease-or-bitumen-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Softening Point Apparatus",
+      "category": "Grease / Bitumen Testing",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/grease-or-bitumen-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Bitumen Distillation Apparatus",
+      "category": "Grease / Bitumen Testing",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/grease-or-bitumen-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "COD Digestor",
+      "category": "Water Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/water-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Drum Heater Manufacturer in India",
+      "category": "Water Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/water-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Ash Content Apparatus",
+      "category": "Coal Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/coal-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Moisture Oven For Coal",
+      "category": "Coal Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/coal-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Minimum Space Oven For Coal",
+      "category": "Coal Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/coal-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Automatic Bomb Calorimeter",
+      "category": "Coal Testing Instruments",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/coal-testing-instrument/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+      "brand": "Hamco",
+      "name": "Demulsibility Bath",
+      "category": "Standalone",
+      "description": "",
+      "features": [],
+      "product_url": "https://www.hamcoindia.co.in/",
+      "image": "",
+      "datasheet": ""
+    },
+    {
+  "brand": "Dyhydromatics",
+  "name": "ShearJet HL60 V2",
+  "category": "Small Volume High-Shear Homogenizers",
+  "description": "Electric-hydraulic driven lab homogenizer for 3–500 mL samples with 5,000–30,000 psi operating pressure and ~68 mL/min flow. Designed for R&D, featuring compact design, HMI for control and data logging, and robust continuous operation.",
+  "features": [
+    "Sample sizes from ~3 mL to 500 mL",
+    "Pressure range 5,000–30,000 psi (≈ 345–2,070 bar)",
+    "1 mL stroke, ~68 mL/min flow rate",
+    "Diamond Reaction Chamber® for high durability",
+    "Optional chiller-ready heat exchanger for temperature control",
+    "Touch-screen HMI with pulse/cycle modes and data acquisition",
+    "Compact footprint and low noise operation"
+  ],
+  "product_url": "https://dyhydromatics.com/equipment/small-volume-shearjet-hl60-v2/",
+  "image": "",
+  "datasheet": ""
+},
+{
+  "brand": "Dyhydromatics",
+  "name": "ShearJet PL300",
+  "category": "Medium Volume High-Shear Homogenizers",
+  "description": "Pneumatic-driven medium-volume processor suitable for non-pharma and pharma applications. Operates up to 23,000 psi with 6 mL stroke and 350–450 mL/min throughput, supporting emulsions, dispersions, and nano-formulations.",
+  "features": [
+    "Typical sample range: 50 mL – 2 L (non-pharma) or ≥ 70 mL (pharma)",
+    "Operating pressure up to 23,000 psi (≈ 1,586 bar)",
+    "6 mL stroke; 350–450 mL/min flow rate",
+    "Diamond Reaction Chamber® and adjustable back-pressure module",
+    "400 mL jacketed reservoir with optional larger tanks",
+    "Ceramic plunger and dual-gauge system",
+    "PH model features full pharma-grade contact parts"
+  ],
+  "product_url": "https://dyhydromatics.com/equipment/medium-volume-shearjet-pl300/",
+  "image": "",
+  "datasheet": ""
+},
+{
+  "brand": "Dyhydromatics",
+  "name": "ShearJet HP1200 V2",
+  "category": "Pilot Scale High-Shear Homogenizers",
+  "description": "Pilot-scale ShearJet HP1200 V2 series designed for process scale-up and high-throughput homogenization. Utilizes ShearJet Reaction Chamber technology with integrated heat-exchange options for temperature-sensitive formulations.",
+  "features": [
+    "Pilot-scale throughput with scalable geometry",
+    "High-pressure homogenization using Reaction Chamber® design",
+    "Supports seamless scale-up from R&D to production",
+    "Integrated temperature-control and heat-exchange modules",
+    "Compatible with both standard and sanitary configurations"
+  ],
+  "product_url": "https://dyhydromatics.com/equipment/pilot-scale-hp1200-series-v2/",
+  "image": "",
+  "datasheet": ""
+}
+
   ]
 }

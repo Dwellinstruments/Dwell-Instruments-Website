@@ -54,14 +54,6 @@
           ]
         },
         {
-          "name": "Milk & Dairy (FTIR / Combi)",
-          "slug": "milk-dairy",
-          "products": [
-            "MilkoScan 7 RM",
-            "CombiFoss 7"
-          ]
-        },
-        {
           "name": "X-ray Analysis",
           "slug": "x-ray",
           "products": [
@@ -277,43 +269,6 @@
   "name": "Shimadzu",
   "slug": "shimadzu",
   "categories": [
-    {
-      "name": "Liquid Chromatography (HPLC/UHPLC)",
-      "slug": "lc",
-      "products": [
-        "Nexera series",            
-        "i-Series HPLC/UHPLC",      
-        "LC-20 Series",             
-        "UHPLC model LC-2060 series" 
-      ]
-    },
-    {
-      "name": "Liquid Chromatography-Mass Spectrometry (LC-MS)",
-      "slug": "lc-ms",
-      "products": [
-        "Shimadzu LC-MS Systems",    
-        "LCMS-8060 Triple Quadrupole" ]
-    },
-    {
-      "name": "Gas Chromatography (GC)",
-      "slug": "gc",
-      "products": [
-        "Nexis GC-2030",  
-        "Brevis GC-2050", 
-        "GC-2010 Pro",    
-        "GC-2014"         
-      ]
-    },
-    {
-      "name": "Gas Chromatograph-Mass Spectrometry (GC-MS)",
-      "slug": "gc-ms",
-      "products": [
-        "GCMS-TQ8050 NX", 
-        "GCMS-TQ8040 NX", 
-        "GCMS-QP2050",    
-        "GCMS-QP2020 NX"  
-      ]
-    },
     {
       "name": "Molecular Spectroscopy – FTIR",
       "slug": "ftir",

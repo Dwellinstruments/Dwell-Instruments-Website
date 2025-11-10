@@ -6,114 +6,12 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
 
+      <!-- Dropdown Menu (dynamic) -->
       <li class="dropdown">
         <a href="products.html">Products ▼</a>
-
-        <!-- Level 1 — Brands -->
-        <ul class="main-categories">
-
-          <!-- FOSS -->
-          <li class="has-submenu">
-            <a href="products.html#foss">FOSS ▸</a>
-            <ul class="sub-menu scrollable-menu">
-              <li><a href="products.html#foss">Kjeldahl Systems</a></li>
-              <li><a href="products.html#foss">Digestion</a></li>
-              <li><a href="products.html#foss">Solvent Extraction</a></li>
-              <li><a href="products.html#foss">Fibre Analysis</a></li>
-              <li><a href="products.html#foss">NIR Spectroscopy</a></li>
-              <li><a href="products.html#foss">Milk &amp; Dairy (FTIR / Combi)</a></li>
-              <li><a href="products.html#foss">X-ray Analysis</a></li>
-              <li><a href="products.html#foss">Beer Analysis</a></li>
-              <li><a href="products.html#foss">Accessories</a></li>
-            </ul>
-          </li>
-
-          <!-- Analytik Jena -->
-          <li class="has-submenu">
-            <a href="products.html#analytikjena">Analytik Jena ▸</a>
-            <ul class="sub-menu scrollable-menu">
-              <li><a href="products.html#analytikjena">Elemental Analysis</a></li>
-              <li><a href="products.html#analytikjena">Sum Parameter Analysis</a></li>
-              <li><a href="products.html#analytikjena">Molecular Spectroscopy</a></li>
-              <li><a href="products.html#analytikjena">Liquid Handling &amp; Automation</a></li>
-              <li><a href="products.html#analytikjena">Life Science</a></li>
-              <li><a href="products.html#analytikjena">Lab Equipment</a></li>
-              <li><a href="products.html#analytikjena">Sample Preparation</a></li>
-              <li><a href="products.html#analytikjena">Consumables</a></li>
-            </ul>
-          </li>
-
-          <!-- SCIEX -->
-          <li class="has-submenu">
-            <a href="products.html#sciex">SCIEX ▸</a>
-            <ul class="sub-menu scrollable-menu">
-              <li><a href="products.html#sciex">High-Resolution QTOF</a></li>
-              <li><a href="products.html#sciex">QTRAP LC–MS/MS</a></li>
-              <li><a href="products.html#sciex">Triple Quad LC–MS/MS</a></li>
-              <li><a href="products.html#sciex">Capillary Electrophoresis (CE)</a></li>
-              <li><a href="products.html#sciex">HPLC &amp; Front-Ends</a></li>
-              <li><a href="products.html#sciex">Integrated Solutions</a></li>
-              <li><a href="products.html#sciex">Software &amp; Data</a></li>
-              <li><a href="products.html#sciex">Accessories &amp; Reagents</a></li>
-            </ul>
-          </li>
-
-          <!-- Shimadzu -->
-          <li class="has-submenu">
-            <a href="products.html#shimadzu">Shimadzu ▸</a>
-            <ul class="sub-menu">
-              <li><a href="products.html#shimadzu">Liquid Chromatography (HPLC/UHPLC)</a></li>
-              <li><a href="products.html#shimadzu">Liquid Chromatography–Mass Spectrometry (LC–MS)</a></li>
-              <li><a href="products.html#shimadzu">Gas Chromatography (GC)</a></li>
-              <li><a href="products.html#shimadzu">Gas Chromatograph–Mass Spectrometry (GC–MS)</a></li>
-              <li><a href="products.html#shimadzu">Molecular Spectroscopy – FTIR</a></li>
-              <li><a href="products.html#shimadzu">Molecular Spectroscopy – UV-Vis</a></li>
-            </ul>
-          </li>
-
-          <!-- Waters -->
-          <li class="has-submenu">
-            <a href="products.html#waters">Waters ▸</a>
-            <ul class="sub-menu">
-              <li><a href="products.html#waters">HPLC</a></li>
-            </ul>
-          </li>
-
-          <!-- Apera -->
-          <li class="has-submenu">
-            <a href="products.html#apera">Apera ▸</a>
-            <ul class="sub-menu">
-              <li><a href="products.html#apera">pH Meters</a></li>
-              <li><a href="products.html#apera">Conductivity Meters</a></li>
-            </ul>
-          </li>
-
-          <!-- Hamco -->
-          <li class="has-submenu">
-            <a href="products.html#hamco">Hamco ▸</a>
-            <ul class="sub-menu scrollable-menu">
-              <li><a href="products.html#hamco">Pharmaceutical Testing Instruments</a></li>
-              <li><a href="products.html#hamco">Laboratory Instruments</a></li>
-              <li><a href="products.html#hamco">Scientific Instruments</a></li>
-              <li><a href="products.html#hamco">Oil Testing Instruments</a></li>
-              <li><a href="products.html#hamco">Fuel Testing Instruments</a></li>
-              <li><a href="products.html#hamco">Grease / Bitumen Testing</a></li>
-              <li><a href="products.html#hamco">Water Testing Instruments</a></li>
-              <li><a href="products.html#hamco">Coal Testing Instruments</a></li>
-              <li><a href="products.html#hamco">Standalone</a></li>
-            </ul>
-          </li>
-
-          <!-- Dyhydromatics -->
-          <li class="has-submenu">
-            <a href="products.html#dyhydromatics">Dyhydromatics ▸</a>
-            <ul class="sub-menu">
-              <li><a href="products.html#dyhydromatics">Small Volume High-Shear Homogenizers</a></li>
-              <li><a href="products.html#dyhydromatics">Medium Volume High-Shear Homogenizers</a></li>
-              <li><a href="products.html#dyhydromatics">Pilot Scale High-Shear Homogenizers</a></li>
-            </ul>
-          </li>
-
+        <ul class="main-categories scrollable-menu" id="productsMenu">
+          <!-- This section will be filled dynamically using product_details.json -->
+          <li><a href="products.html">Loading...</a></li>
         </ul>
       </li>
 
@@ -126,4 +24,5 @@
       <a href="index.html" class="logo-text">Dwell Instruments</a>
     </div>
   </div>
+  
 </nav>

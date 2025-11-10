@@ -118,6 +118,15 @@
       transform: translateY(-1px);
       background: #fff;
     }
+    .catalog .chip a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      width: 100%;
+    }
+    .catalog .chip a:hover {
+      text-decoration: underline;
+    }
 
     /* Subtle divider between brands */
     .catalog .brand-section + .brand-section {
@@ -144,7 +153,7 @@
     <p>Explore high-quality instruments from our trusted global partners.</p>
   </header>
 
-  <!-- Brand Cards (unchanged) -->
+  <!-- Brand Cards -->
   <section class="brand-grid" aria-label="Brands">
     <a href="#foss" class="brand-card"><img src="images/brands/foss.png" alt="FOSS"><span>FOSS</span></a>
     <a href="#analytikjena" class="brand-card"><img src="images/brands/analytikjena.png" alt="Analytik Jena"><span>Analytik Jena</span></a>
@@ -203,12 +212,11 @@
       .catch(() => {});
   </script>
 
-  <!-- Catalog renderer (clean corporate layout) -->
+  <!-- Catalog renderer -->
   <script>
     const elSections = document.getElementById('brand-sections');
     const elFilter = document.getElementById('brandFilter');
     const elSearch = document.getElementById('searchBox');
-
     let CATALOG = { brands: [] };
 
     async function loadCatalog() {
@@ -239,7 +247,6 @@
     function render() {
       const brandSel = elFilter.value || 'all';
       const q = (elSearch.value || '').trim();
-
       elSections.innerHTML = '';
 
       const brands = (brandSel === 'all')
@@ -256,13 +263,11 @@
       }
 
       brands.forEach(brand => {
-        // Build filtered categories/products
         const cats = (brand.categories || []).map(cat => {
           const prods = (cat.products || []).filter(p => !q || matchesQuery(p, q));
           return { ...cat, products: prods };
         }).filter(cat => cat.products && cat.products.length);
 
-        // If query active & nothing matches in this brand, skip
         if (q && cats.length === 0) return;
 
         const section = document.createElement('section');
@@ -301,7 +306,8 @@
               const chip = document.createElement('div');
               chip.className = 'chip';
               chip.title = p;
-              chip.textContent = p;
+              // 🔗 Make each product clickable
+              chip.innerHTML = `<a href="product-details.html?product=${encodeURIComponent(p)}">${p}</a>`;
               list.appendChild(chip);
             });
 
@@ -313,7 +319,6 @@
         elSections.appendChild(section);
       });
 
-      // If filter/search removed all content
       if (!elSections.children.length) {
         elSections.innerHTML = `
           <section class="brand-section">
@@ -323,13 +328,11 @@
       }
     }
 
-    // Hash navigation
     window.addEventListener('hashchange', () => {
       const el = document.querySelector(location.hash);
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
-    // Init
     (async () => {
       elSections.innerHTML = `
         <section class="brand-section">
@@ -344,7 +347,6 @@
         elFilter.addEventListener('change', render);
         elSearch.addEventListener('input', render);
 
-        // Scroll to brand from hash if any
         if (location.hash) {
           const el = document.querySelector(location.hash);
           if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
